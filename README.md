@@ -10,7 +10,7 @@ The code has been converted from Python 2 to Python 3.
 The executable `nrfutil` has been renamed to `adafruit-nrfutil` to distinguish it from the
 original executable.
 
-This tool can be used with the [Adafruit nRF52 Feather](https://www.adafruit.com/product/3406)
+This tool can be used with the [ArduinoCore nRF528x mbedos](https://github.com/ElectronicCats/ArduinoCore-nRF528x-mbedos)
 to flash firmware images onto the device using the simple serial port.
 
 This library is written for Python 3.5+. It is no longer Python 2 compatible!
@@ -68,7 +68,7 @@ $ sudo python3 setup.py install
 
 ### Create self-contained binary
 
-To generate a self-contained executable binary of the utility (Windows and MacOS), run these commands:
+To generate a self-contained executable binary of the utility (Windows, MacOS and Linux), run these commands:
 
 ```
 pip3 install pyinstaller
